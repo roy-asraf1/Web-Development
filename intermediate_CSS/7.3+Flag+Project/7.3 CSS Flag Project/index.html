@@ -5,8 +5,49 @@
   <meta charset="UTF-8">
   <title>CSS Flag Project</title>
   <style>
-    /* Write your CSS Code here */
-    
+    .flag {
+      width: 900px;
+      height: 600px;
+      background-color: #CE1126;
+      position: absolute;
+    }
+    .blue-retangle{
+      
+      position: absolute;
+      width: 900px;
+      height: 300px;
+      background-color: #0052A5;
+      top: 150px;
+
+
+    }
+    .white-circle{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      border-radius: 50%;
+      top: 50px;
+      left: 350px;
+    }
+    #flagTitle {
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    #laosTitle {
+      color: black;
+      font-size: 5rem;
+      
+
+
+    }
+    #flagTitle, #laosTitle {
+      text-align: center;
+    }
+
   </style>
 </head>
 
@@ -22,10 +63,12 @@ https://appbrewery.github.io/flag-of-laos/
 
 <body>
   <div class="flag">
-    <p>The Flag</p>
-    <div>
-      <div>
-        <p>of Laos</p>
+    <p id="flagTitle" class="center">The Flag</p>
+    <div class="blue-retangle">
+
+      <div id="laosTitle" class="white-circle" >
+        
+        <p  class="center">of Laos</p>
       </div>
     </div>
   </div>
