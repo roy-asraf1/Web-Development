@@ -12,10 +12,30 @@ body {
 
 h1 {
   font-size: 5rem;
+
+}
+
+.logo{
+  float: left;
+}
+
+.left{
+  float: left;
+  color: #333;
+}
+.right{
+  float: right;
+  color: #333;
+}
+img{
+  width: 20%;
+  height: auto;
+
 }
 
 footer {
   text-align: right;
   color: midnightblue;
+  
 }
 
